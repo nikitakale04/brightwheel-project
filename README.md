@@ -6,14 +6,15 @@
 # Changes to be added to application.properties before starting the application
 1. service name
 emailServiceProvider.serviceName=mailgun 
-or
+or 
 emailServiceProvider.serviceName=sendgrid
 
 2. Add the api keys
-mailgun.apiKey=
+mailgun.apiKey= and 
 sendgrid.apiKey=
 
-3. Add your domain name for mailgun
+3. Add your domain name for mailgun 
+mailgun.domainName=
 
 # Note that
 1. sendgrid message can be found in spam emails
